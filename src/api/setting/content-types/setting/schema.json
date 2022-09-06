@@ -1,0 +1,77 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "Setting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "menu": {
+      "displayName": "page_menu",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.page-menu"
+    },
+    "order_text": {
+      "type": "text"
+    },
+    "instagram_username": {
+      "type": "string"
+    },
+    "location_title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "opening_hours": {
+      "type": "string"
+    },
+    "footer_tagline": {
+      "type": "string"
+    },
+    "footer_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "whatsapp_link": {
+      "type": "string"
+    },
+    "facebook_link": {
+      "type": "string"
+    },
+    "instagram_link": {
+      "type": "string"
+    },
+    "twitter_link": {
+      "type": "string"
+    }
+  }
+}
